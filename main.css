@@ -1,0 +1,56 @@
+*{font-family: 'Roboto', sans-serif;}
+
+nav{
+background-color: black;
+text-align: center;
+padding-bottom: 10%;
+}
+
+nav ul{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: center;
+list-style-type: none;
+text-decoration: none;
+color: white;
+padding-top: 2%;
+background-color: black;
+}
+nav ul a{
+    color: white;
+    font-size: small;
+    background-color: black;
+}
+
+#nav-title{
+    color: white;
+    float: left;
+    padding-top: 2%;
+    font-size: x-large;
+    background-color: black;
+}
+
+.shows{
+    text-align: center;
+    background-color: white;
+}
+
+.april{
+border-style: solid;
+background-color: white;
+}
+
+.container{
+    position:relative;
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
+
+.centered{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
